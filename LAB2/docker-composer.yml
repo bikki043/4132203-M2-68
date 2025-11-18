@@ -1,0 +1,6 @@
+service:
+web:
+  image: nginx
+  - 8000:00
+  volumes:
+  - ./html:/user/share/nginx/html
